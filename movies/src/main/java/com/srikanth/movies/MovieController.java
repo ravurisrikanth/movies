@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-//Rest controler
+//This method redirects the api request to the methods
 @RestController
 @RequestMapping("/api/v1/movies")
 public class MovieController {
